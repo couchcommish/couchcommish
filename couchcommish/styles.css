@@ -441,11 +441,12 @@ img#logo {
 }
 
 #contact-submission {
-    margin: 100px;
+    margin: 20px; /* Use smaller margin for mobile */
     padding: 30px;
     background-color: #f2f2f2;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    word-wrap: break-word; /* This will break the line at the edge of the box */
 }
 
 #contact-submission h1 {
@@ -455,6 +456,14 @@ img#logo {
 #contact-submission p {
     font-size: 18px; /* Adjust the size as needed */
 }
+
+/* This will apply if the viewport is 600px or more */
+@media (min-width: 600px) {
+    #contact-submission {
+        margin: 100px; /* Use larger margin for desktop */
+    }
+}
+
 
 .video-container {
     position: relative;
