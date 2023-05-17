@@ -344,20 +344,28 @@ img#logo {
 }
 
 #all-articles h2 {
-    font-size: 48px; /* double the font-size */
-    margin-bottom: 40px; /* double the margin */
+    font-size: 3em;
+    margin-bottom: 2em;
     color: white;
 }
 
 #all-articles article {
     display: flex;
+    flex-direction: column;
     align-items: start;
-    margin-bottom: 40px; /* double the margin */
+    margin-bottom: 2em;
     transition: transform 0.3s ease-in-out;
     position: relative;
     background: linear-gradient(to right, #333, #666);
     color: white;
-    padding: 20px; /* double the padding */
+    padding: 1em;
+}
+
+/* This will apply if the viewport is 600px or more */
+@media (min-width: 600px) {
+    #all-articles article {
+        flex-direction: row;
+    }
 }
 
 #all-articles article::before {
@@ -365,7 +373,7 @@ img#logo {
     display: block;
     position: absolute;
     height: 100%;
-    width: 4px; /* double the width */
+    width: 4px;
     left: 0;
     background-color: white;
 }
@@ -376,25 +384,33 @@ img#logo {
 }
 
 #all-articles article img {
-    height: 140px; /* double the height */
-    width: 140px; /* double the width */
-    margin-right: 20px; /* double the margin */
+    height: auto;
+    width: 100%;
+    margin-right: 1em;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
+/* This will apply if the viewport is 600px or more */
+@media (min-width: 600px) {
+    #all-articles article img {
+        height: 140px;
+        width: 140px;
+    }
+}
+
 #all-articles article div {
-    margin-left: 20px; /* double the margin */
+    margin-left: 1em;
 }
 
 #all-articles article h3 {
-    font-size: 36px; /* double the font-size */
+    font-size: 2em;
     font-weight: bold;
-    margin: 0 0 10px 0; /* double the margin */
+    margin: 0 0 0.5em 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 #all-articles article p {
-    font-size: 28px; /* double the font-size */
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -404,6 +420,7 @@ img#logo {
     color: white;
     text-decoration: none;
 }
+
 
 #contact {
     padding-bottom: 100px; /* Adjust as necessary */
