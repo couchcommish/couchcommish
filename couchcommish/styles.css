@@ -175,12 +175,20 @@ img#logo {
     margin: 10px 350px 75px 350px;
 }
 
+/* This will apply if the viewport is 600px or less */
+@media (max-width: 600px) {
+    .article-content {
+        margin: 10px 20px 75px 20px;
+    }
+}
+
 .article-content .in-article-photo {
     display: block;
     width: 100%;
     height: auto; /* Optional, to maintain aspect ratio */
     margin: 0 auto; /* Centers image if it's width is less than 100% */
 }
+
 
 .image-container {
     display: flex;
