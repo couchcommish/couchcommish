@@ -399,7 +399,21 @@ img#logo {
 }
 
 #all-articles article div {
-    margin-left: 1em;
+    /* Removed margin-left from here */
+}
+
+/* This will apply if the viewport is 600px or more */
+@media (min-width: 600px) {
+    #all-articles article {
+        flex-direction: row;
+    }
+    #all-articles article div {
+        margin-left: 1em; /* Added margin-left here, so it will only apply on larger screens */
+    }
+    #all-articles article img {
+        height: 140px;
+        width: 140px;
+    }
 }
 
 #all-articles article h3 {
