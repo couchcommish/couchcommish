@@ -6,20 +6,28 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-         <a href="../index.html">
-        <img id="logo" src="couchcommishlogo.jpeg" alt="Couch Commish Logo">
-         </a>
-        <nav>
+   <header>
+    <div class="header-content">
+        <a href="../index.html">
+            <img id="logo" src="couchcommish/couchcommishlogo.jpeg" alt="Couch Commish Logo">
+        </a>
+        <nav class="desktop-nav">
             <ul>
-                <li><a href="#articles">Articles</a></li>
+                <li><a href="#articles.html">Articles</a></li>
                 <li><a href="../index.html#about">About Us</a></li>
-                <li><a href="contactus.html">Contact/Submissions</a></li>
+                <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
             </ul>
         </nav>
+        <nav class="mobile-nav">
+            <select onchange="location = this.value;">
+                <option value="">Menu</option>
+                <option value="#articles.html">Articles</option>
+                <option value="../index.html#about">About Us</option>
+                <option value="couchcommish/contactus.html">Contact/Submissions</option>
+            </select>
+        </nav>
     </div>
-    </header>
+</header>
     <main>
       <section id="all-articles">
     <h2>All Articles</h2>
