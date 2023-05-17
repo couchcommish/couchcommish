@@ -96,6 +96,27 @@ nav li a {
     text-decoration: none;
 }
 
+/* Hide the mobile navigation by default */
+.mobile-nav {
+    display: none;
+}
+
+/* Mobile navigation styling */
+.mobile-nav select {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
+@media screen and (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+    }
+}
+
 
 /* Section styles */
 section {
