@@ -7,17 +7,25 @@
     <link rel="stylesheet" href="couchcommish/styles.css">
 </head>
 <body>
- <header>
+<header>
     <div class="header-content">
         <a href="index.html">
             <img id="logo" src="couchcommish/couchcommishlogo.jpeg" alt="Couch Commish Logo">
         </a>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="couchcommish/articles.html">Articles</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
             </ul>
+        </nav>
+        <nav class="mobile-nav">
+            <select onchange="location = this.value;">
+                <option value="">Menu</option>
+                <option value="couchcommish/articles.html">Articles</option>
+                <option value="#about">About Us</option>
+                <option value="couchcommish/contactus.html">Contact/Submissions</option>
+            </select>
         </nav>
     </div>
 </header>
