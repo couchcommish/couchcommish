@@ -1,0 +1,401 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif; /* Replace with the name of your font and choose appropriate fallbacks */
+    padding-top: 70px; 
+}
+
+@font-face {
+    font-family: 'Exo_2';
+    src: url('fonts/Exo_2/static/Exo2-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Exo_2/static/Exo2-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Header styles */
+header {
+    position: fixed; /* Fix the position of the header */
+    top: 0; /* Align it to the top */
+    width: 100%; /* Make it span the entire width */
+    background-color: #303952;
+    padding: 5px 0;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    z-index: 1000; /* This will ensure the header stays above all other content */
+}
+
+
+/* This sets the header font to Copperplate */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo_2', 'Copperplate Gothic Light', monospace;
+}
+
+nav li a {
+    font-family: 'Exo_2', 'Copperplate Gothic Light', monospace;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will create space between the logo and the nav */
+    max-width: 1200px; /* You can adjust this value */
+    margin: 0 auto; /* This will center the .header-content */
+    padding: 0 20px; /* This will give some space on the left and right */
+}
+
+#logo {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303952;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -5px 10px rgba(0,0,0,0.3);
+}
+
+#instagram-logo,
+#site-logo {
+    height: 40px; /* adjust as needed */
+    width: auto;
+}
+
+#instagram-logo img,
+#site-logo img {
+    max-height: 100%;
+    width: auto;
+    border-radius: 50%; /* This will make the corners fully rounded */
+}
+
+.spaced {
+    margin-bottom: 20px;
+}
+
+img#logo {
+    width: 200px;
+    height: auto;
+}
+
+.red-header {
+    color: red;
+}
+
+.green-header {
+    color: green;
+}
+
+.grey-header {
+    color: grey;
+}
+
+.article-content {
+    margin: 10px 350px 75px 350px;
+}
+
+.article-content .in-article-photo {
+    display: block;
+    width: 100%;
+    height: auto; /* Optional, to maintain aspect ratio */
+    margin: 0 auto; /* Centers image if it's width is less than 100% */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* hide the overflow from pseudo-elements */
+}
+
+.image-container img {
+    display: block;
+    position: relative; /* make sure the image is above the pseudo-elements */
+    z-index: 1;
+}
+
+.image-container::before, .image-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.image-container::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.image-container::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+
+#latest-and-trending {
+    /* Add a black background and some padding */
+    background-color: #303952;
+    color: white; /* Make text white so it's visible on the black background */
+    padding: 20px;
+}
+
+#latest-and-trending h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#latest-and-trending article {
+    display: flex;
+    align-items: start; /* Align the image and text at their tops */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    position: relative; /* New line */
+    background: linear-gradient(to right, #333, #666); /* Gradient background */
+    color: white; /* Color of the text */
+    padding: 10px; /* Some padding around the content */
+}
+
+#latest-and-trending article::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 2px; /* This is the width of the vertical bar */
+    left: 0;
+    background-color: white;
+}
+
+#latest-and-trending article:hover {
+    transform: scale(1.03); /* Slightly enlarge the article when hovered */
+    cursor: pointer;
+}
+
+#latest-and-trending article img {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5); /* Add shadow effect */
+}
+
+#latest-and-trending article div {
+    /* Add some space between the image and the text */
+    margin-left: 10px;
+}
+
+#latest-and-trending article h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px 0; /* Add some space below the title */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#latest-and-trending article p {
+    font-size: 14px;
+    margin: 0;
+}
+
+#latest-and-trending a {
+    display: flex;
+    align-items: start;
+    color: white;
+    text-decoration: none;
+}
+
+#trending {
+    border-bottom: 4px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.video-description {
+    font-style: italic; /* This is just an example, you can use any CSS properties here */
+    color: #888;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.underline-heading {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'League Script';
+    src: url('fonts/League_Script/LeagueScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.signature {
+    font-family: 'League Script', Arial, sans-serif;
+    font-size: 2em; /* adjust this value to your preference */
+}
+
+#about {
+    margin: 50px;
+    padding-top: 80px; /* height of the header + a bit of extra space */
+}
+
+#about::before {
+    content: "";
+    display: block;
+    height: 60px;  /* Adjust this value to match your actual header height */
+    margin-top: -60px;  /* Adjust this value to match your actual header height */
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+#all-articles {
+    background-color: #303952;
+    color: white;
+    padding: 20px;
+}
+
+#all-articles h2 {
+    font-size: 48px; /* double the font-size */
+    margin-bottom: 40px; /* double the margin */
+    color: white;
+}
+
+#all-articles article {
+    display: flex;
+    align-items: start;
+    margin-bottom: 40px; /* double the margin */
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    background: linear-gradient(to right, #333, #666);
+    color: white;
+    padding: 20px; /* double the padding */
+}
+
+#all-articles article::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 4px; /* double the width */
+    left: 0;
+    background-color: white;
+}
+
+#all-articles article:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#all-articles article img {
+    height: 140px; /* double the height */
+    width: 140px; /* double the width */
+    margin-right: 20px; /* double the margin */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+#all-articles article div {
+    margin-left: 20px; /* double the margin */
+}
+
+#all-articles article h3 {
+    font-size: 36px; /* double the font-size */
+    font-weight: bold;
+    margin: 0 0 10px 0; /* double the margin */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#all-articles article p {
+    font-size: 28px; /* double the font-size */
+    margin: 0;
+}
+
+#all-articles a {
+    display: flex;
+    align-items: start;
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    padding-bottom: 100px; /* Adjust as necessary */
+}
+
+#contact-submission {
+    margin: 100px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact-submission h1 {
+    font-size: 30px; /* Adjust the size as needed */
+}
+
+#contact-submission p {
+    font-size: 18px; /* Adjust the size as needed */
+}
+
+
+
+
