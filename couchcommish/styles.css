@@ -235,6 +235,7 @@ img#logo {
     color: white;
     /* Hide the overlay on desktop */
     display: none;
+    z-index: 2; /* Add this line */
 }
 
 /* Show the overlay on mobile */
@@ -243,6 +244,7 @@ img#logo {
         display: flex;
     }
 }
+
 
 
 
