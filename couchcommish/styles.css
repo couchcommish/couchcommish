@@ -236,6 +236,7 @@ img#logo {
     /* Hide the overlay on desktop */
     display: none;
     z-index: 2; /* Add this line */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 /* Show the overlay on mobile */
