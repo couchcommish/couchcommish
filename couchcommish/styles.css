@@ -193,12 +193,12 @@ img#logo {
     display: flex;
     justify-content: center;
     position: relative;
-    overflow: hidden; /* hide the overflow from pseudo-elements */
+    overflow: hidden;
 }
 
 .image-container img {
     display: block;
-    position: relative; /* make sure the image is above the pseudo-elements */
+    position: relative;
     z-index: 1;
 }
 
@@ -243,6 +243,7 @@ img#logo {
         display: flex;
     }
 }
+
 
 
 
