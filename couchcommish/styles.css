@@ -515,6 +515,23 @@ img#logo {
     }
 }
 
+@media (max-width: 600px) {
+    #all-articles article {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+    #all-articles article img {
+        height: 70px;
+        width: 70px;
+        margin-right: 10px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+    #all-articles article div {
+        margin-left: 10px;
+    }
+}
+
 
 
 
