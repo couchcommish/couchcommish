@@ -234,6 +234,7 @@ img#logo {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .image-container img {
