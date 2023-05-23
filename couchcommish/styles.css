@@ -138,6 +138,15 @@ nav li a {
     flex-direction: column;
 }
 
+.mobile-nav-menu.hidden {
+    display: none;
+}
+
+.mobile-nav-menu.active {
+    display: flex;
+}
+
+
 @media screen and (max-width: 768px) {
     .mobile-menu-toggle {
         display: flex;
