@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -136,6 +135,7 @@ nav li a {
 
 .mobile-nav-list {
     display: none;
+    id: mobileNav;
 }
 
 /* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
