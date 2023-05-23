@@ -15,29 +15,29 @@
         <a href="index.html">
             <img id="logo" src="couchcommish/couchcommishlogo.jpeg" alt="Couch Commish Logo">
         </a>
-        <nav class="desktop-nav">
-            <ul>
-                <li><a href="couchcommish/articles.html">Articles</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
-            </ul>
-        </nav>
-        <nav class="mobile-nav">
-            <div class="menu-container">
-            <div class="mobile-menu-toggle" onclick="toggleNav()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <span class="mobile-menu-label">Menu</span>
-            </div>
-            <!-- Removed select tag as we are using a different navigation for mobile -->
-            <ul id="mobile-nav-menu" class="mobile-nav-menu hidden"> <!-- Added id and classes -->
-                <li><a href="couchcommish/articles.html">Articles</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
-            </ul>
-        </nav>
+      <nav class="desktop-nav">
+    <ul>
+        <li><a href="couchcommish/articles.html">Articles</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
+    </ul>
+</nav>
+<nav class="mobile-nav">
+    <div class="menu-container">
+        <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- Removed mobile-menu-label span as you requested a hamburger icon with no text -->
+    </div>
+    <!-- Removed select tag as we are using a different navigation for mobile -->
+    <ul id="mobile-nav-menu" class="mobile-nav hidden"> <!-- Added id and classes -->
+        <li><a href="couchcommish/articles.html">Articles</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
+    </ul>
+</nav>
     </div>
 </header>
 
