@@ -100,14 +100,8 @@ nav li a {
     align-items: center;
 }
 
-/* Hide the mobile navigation by default */
 .mobile-nav {
     display: none;
-}
-
-/* Mobile navigation styling */
-.mobile-nav select {
-    display: none; /* Hide the default select element */
 }
 
 .mobile-menu-toggle {
@@ -120,55 +114,36 @@ nav li a {
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
-    width: 30px; /* Adjust the width */
-    height: 30px; /* Adjust the height */
-    position: relative; /* Start by positioning relative to its normal position */
-    top: 0; /* Adjust the distance from the top of the parent element */
-    right: 0; /* Adjust the distance from the right of the parent element */
 }
-
 
 .mobile-menu-toggle span {
     display: block;
-    width: 100%;
-    height: 3px;
+    width: 25px; /* Adjusted the width */
+    height: 2px; /* Adjusted the height */
     background-color: white;
-    margin-bottom: 5px;
-}
-
-.mobile-menu-label {
-    margin-left: 10px;
-    color: white;
-    font-size: 16px;
-    text-align: right;
+    margin: 4px 0; /* Adjusted the margin */
 }
 
 #mobile-nav-menu {  /* Corrected the selector to match HTML id */
     display: none;
-}
-
-.mobile-nav-menu:not(.hidden) {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     position: absolute;
     top: 100%; 
     left: 0;
-    background: #303952;
-    padding: 10px 0;
-    z-index: 2;
-}
-.mobile-nav-menu li {
-    width: 100%;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
-.mobile-nav-menu li:hover {
-    background: #3e4a63;
+    width: 100%; /* Added to ensure the menu spans the entire width */
+    background-color: #303952; /* Added background color */
+    z-index: 2; /* Added to ensure the menu appears on top of other content */
 }
 
-/* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
+.mobile-nav-menu li {
+    padding: 10px;
+    cursor: pointer;
+    color: white; /* Changed the text color to white */
+}
+
+.mobile-nav-menu li:hover {
+    background-color: #3e4a63; /* Added a hover effect */
+}
+
 @media screen and (max-width: 768px) {
     .desktop-nav {
         display: none;
@@ -176,15 +151,20 @@ nav li a {
     .mobile-nav {
         display: block;
     }
-    
+
     .mobile-menu-toggle {
         display: flex;
     }
-    
-    #mobile-nav-menu { /* Corrected the selector to match HTML id */
+
+    #mobile-nav-menu.hidden { /* Hidden by default */
+        display: none;
+    }
+
+    #mobile-nav-menu:not(.hidden) { /* Show when not hidden */
         display: block;
     }
 }
+
 
 
 /* Section styles */
