@@ -590,6 +590,12 @@ img#logo {
   }
 }
 
+@media screen and (min-width: 769px) {
+    .mobile-nav-list {
+        display: none;
+    }
+}
+
 
 
 
