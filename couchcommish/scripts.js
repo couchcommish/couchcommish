@@ -1,9 +1,11 @@
 function toggleNav() {
     var nav = document.getElementById("mobile-nav-menu");
-    if (nav.className === "mobile-nav-menu hidden") {
-        nav.className = "mobile-nav-menu active";
+    if (nav.classList.contains("hidden")) {
+        nav.classList.remove("hidden");
+        nav.classList.add("active");
     } else {
-        nav.className = "mobile-nav-menu hidden";
+        nav.classList.remove("active");
+        nav.classList.add("hidden");
     }
 }
 
