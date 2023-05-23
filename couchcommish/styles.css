@@ -100,43 +100,89 @@ nav li a {
     align-items: center;
 }
 
-.mobile-menu-toggle {
+
+/* Hide the mobile navigation by default */
+.mobile-nav {
     display: none;
 }
 
-.mobile-menu-label {
-    display: none;
+/* Mobile navigation styling */
+.mobile-nav select {
+    display: none; /* Hide the default select element */
+}
+
+.mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #303952;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
     cursor: pointer;
 }
 
-.mobile-menu-label span {
+
+.mobile-menu-toggle span {
     display: block;
-    width: 25px;
+    width: 100%;
     height: 3px;
     background-color: white;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
-.mobile-nav-menu {
+.mobile-menu-label {
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: right;
+}
+
+.mobile-nav-list {
     display: none;
+    id: mobileNav;
 }
 
-#mobile-menu-toggle:checked ~ .mobile-nav-menu {
-    display: block;
+.mobile-nav-menu:not(.hidden) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background: #303952;
+    padding: 10px 0;
+    z-index: 2;
+}
+.mobile-nav-menu li {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.mobile-nav-menu li:hover {
+    background: #3e4a63;
 }
 
+/* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
 @media screen and (max-width: 768px) {
-    .mobile-menu-toggle,
-    .mobile-menu-label {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav {
         display: block;
     }
-    nav ul {
-        display: none; /* Hide the default navigation on small screens */
+    
+    .mobile-menu-toggle {
+        display: flex;
     }
-    nav li {
-        float: none; /* Stack the links vertically on small screens */
+    
+    .mobile-nav-list {
+        display: block;
     }
 }
+
 
 
 /* Section styles */
