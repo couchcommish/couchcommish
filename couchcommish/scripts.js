@@ -1,16 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var menuToggle = document.getElementById('mobile-menu-toggle');
-    var navMenu = document.getElementById('mobile-nav-menu');
+function toggleNav() {
+    var nav = document.getElementById("mobile-nav-menu");
+    if (nav.className === "mobile-nav hidden") {
+        nav.className = "mobile-nav active";
+    } else {
+        nav.className = "mobile-nav hidden";
+    }
+}
 
-    // Toggle the menu when the hamburger icon is clicked
-    menuToggle.addEventListener('click', function() {
-        navMenu.classList.toggle('active');
-    });
-
-    // Close the menu when a navigation item is clicked
-    navMenu.addEventListener('click', function(event) {
-        if (event.target.tagName === 'A') {
-            navMenu.classList.remove('active');
-        }
-    });
-});
