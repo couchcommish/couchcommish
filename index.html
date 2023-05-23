@@ -5,36 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Couch Commish</title>
     <link rel="stylesheet" href="couchcommish/styles.css">
+    <!-- Add the script here -->
+    <script src="couchcommish/scripts.js"></script>
 </head>
 <body>
-    
 <header>
     <div class="header-content">
         <a href="index.html">
             <img id="logo" src="couchcommish/couchcommishlogo.jpeg" alt="Couch Commish Logo">
         </a>
-      <nav class="desktop-nav">
-        <ul>
-            <li><a href="couchcommish/articles.html">Articles</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
-        </ul>
-    </nav>
-    <nav class="mobile-nav">
-        <div class="menu-container">
-            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle"/>
-            <label for="mobile-menu-toggle" class="mobile-menu-label">
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="couchcommish/articles.html">Articles</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav">
+            <div class="mobile-menu-toggle" onclick="toggleNav()">
                 <span></span>
                 <span></span>
                 <span></span>
-            </label>
-        </div>
-        <ul id="mobile-nav-menu" class="mobile-nav-menu hidden">
-            <li><a href="couchcommish/articles.html">Articles</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
-        </ul>
-    </nav>
+            </div>
+            <span class="mobile-menu-label">Menu</span>
+            </div>
+            <!-- Removed select tag as we are using a different navigation for mobile -->
+            <ul id="mobile-nav-menu" class="mobile-nav-menu hidden"> <!-- Added id and classes -->
+                <li><a href="couchcommish/articles.html">Articles</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="couchcommish/contactus.html">Contact/Submissions</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 
