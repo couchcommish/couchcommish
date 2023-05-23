@@ -120,6 +120,11 @@ nav li a {
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
+    width: 30px; /* Adjust the width */
+    height: 30px; /* Adjust the height */
+    position: relative; /* Start by positioning relative to its normal position */
+    top: 0; /* Adjust the distance from the top of the parent element */
+    right: 0; /* Adjust the distance from the right of the parent element */
 }
 
 
