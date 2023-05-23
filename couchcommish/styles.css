@@ -123,6 +123,7 @@ nav li a {
     width: 100%;
     height: 3px;
     background-color: white;
+    margin-bottom: 5px;  /* Add some space between the lines */
 }
 
 .mobile-menu-label {
@@ -141,14 +142,10 @@ nav li a {
     .mobile-menu-toggle {
         display: flex;
     }
-    
-    #mobile-nav-menu {
-        display: flex;
-    }
-}
 
-.mobile-nav.active {
-    display: flex;
+    /* Remove the display property here. It will be handled by JavaScript */
+    #mobile-nav-menu {
+    }
 }
 
 
