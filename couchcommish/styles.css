@@ -100,7 +100,6 @@ nav li a {
     align-items: center;
 }
 
-
 /* Hide the mobile navigation by default */
 .mobile-nav {
     display: none;
@@ -112,7 +111,7 @@ nav li a {
 }
 
 .mobile-menu-toggle {
-    display: flex;
+    display: none; /* Hide by default, shown only in mobile view */
     align-items: center;
     justify-content: space-around;
     background-color: #303952;
@@ -139,9 +138,8 @@ nav li a {
     text-align: right;
 }
 
-.mobile-nav-list {
+#mobile-nav-menu {  /* Corrected the selector to match HTML id */
     display: none;
-    id: mobileNav;
 }
 
 .mobile-nav-menu:not(.hidden) {
@@ -178,11 +176,10 @@ nav li a {
         display: flex;
     }
     
-    .mobile-nav-list {
+    #mobile-nav-menu { /* Corrected the selector to match HTML id */
         display: block;
     }
 }
-
 
 
 /* Section styles */
