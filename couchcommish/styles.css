@@ -95,18 +95,23 @@ nav li a {
     text-decoration: none;
 }
 
+nav li a:hover {
+    color: #yourHoverColor; /* change this to your desired hover color */
+}
+
+nav li a:visited {
+    color: white; /* this will keep the link color white even after it has been clicked */
+}
+
 .menu-container {
     display: flex;
     align-items: center;
 }
 
-
-/* Hide the mobile navigation by default */
 .mobile-nav {
     display: none;
 }
 
-/* Mobile navigation styling */
 .mobile-nav select {
     display: none; /* Hide the default select element */
 }
@@ -123,20 +128,12 @@ nav li a {
     cursor: pointer;
 }
 
-
 .mobile-menu-toggle span {
     display: block;
     width: 100%;
     height: 3px;
     background-color: white;
     margin-bottom: 5px;
-}
-
-.mobile-menu-label {
-    margin-left: 10px;
-    color: white;
-    font-size: 16px;
-    text-align: right;
 }
 
 .mobile-nav-list {
@@ -155,17 +152,18 @@ nav li a {
     padding: 10px 0;
     z-index: 2;
 }
+
 .mobile-nav-menu li {
     width: 100%;
     color: white;
     padding: 10px;
     cursor: pointer;
 }
+
 .mobile-nav-menu li:hover {
     background: #3e4a63;
 }
 
-/* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
 @media screen and (max-width: 768px) {
     .desktop-nav {
         display: none;
@@ -182,6 +180,7 @@ nav li a {
         display: block;
     }
 }
+
 
 
 
