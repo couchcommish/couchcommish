@@ -20,12 +20,16 @@
             </ul>
         </nav>
         <nav class="mobile-nav">
-            <select onchange="location = this.value;">
-                <option value="">Menu</option>
-                <option value="articles.html">Articles</option>
-                <option value="../index.html#about">About Us</option>
-                <option value="contactus.html">Contact/Submissions</option>
-            </select>
+    <div class="mobile-menu-toggle" onclick="toggleNav()">
+        <img src="couchcommish/articlepics/icons8-menu.gif" alt="Menu" id="menu-icon">
+    </div>
+    <span class="mobile-menu-label">Menu</span>
+            </div>
+            <ul id="mobile-nav-menu" class="mobile-nav-menu hidden"> 
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="../index.html#about">About Us</a></li>
+                <li><a href="contactus.html">Contact/Submissions</a></li>
+            </ul>
         </nav>
     </div>
 </header>
