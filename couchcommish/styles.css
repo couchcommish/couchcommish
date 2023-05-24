@@ -173,16 +173,19 @@ nav li a {
     text-decoration: none;
 }
 
-.mobile-nav-menu li a {
+nav li a:visited {
+    color: white;
     text-decoration: none;
 }
 
-nav li a:visited {
+.mobile-nav-menu li a {
     color: white;
+    text-decoration: none;
 }
 
 .mobile-nav-menu li a:visited {
     color: white;
+    text-decoration: none;
 }
 
 
