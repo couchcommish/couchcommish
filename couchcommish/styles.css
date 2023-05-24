@@ -95,12 +95,6 @@ nav li a {
     text-decoration: none;
 }
 
-.menu-container {
-    display: block;
-    align-items: center;
-}
-
-
 /* Hide the mobile navigation by default */
 .mobile-nav {
     display: none;
@@ -119,7 +113,7 @@ nav li a {
     color: white;
     padding: 15px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -135,7 +129,7 @@ nav li a {
 .mobile-menu-label {
     margin-left: 10px;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
 }
 
