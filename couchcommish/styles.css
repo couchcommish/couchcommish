@@ -133,7 +133,10 @@ nav li a {
 }
 
 .mobile-menu-label {
-    display: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: right;
 }
 
 
