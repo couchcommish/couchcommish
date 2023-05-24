@@ -155,15 +155,23 @@ nav li a {
     padding: 10px 0;
     z-index: 2;
 }
+
 .mobile-nav-menu li {
-    width: 100%;
+    display: block;
     color: white;
-    padding: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Exo_2', 'Copperplate Gothic Light', monospace;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
     cursor: pointer;
 }
+
 .mobile-nav-menu li:hover {
     background: #3e4a63;
+    text-decoration: none;
 }
+
 
 /* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
 @media screen and (max-width: 768px) {
