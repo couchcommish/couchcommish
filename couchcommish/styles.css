@@ -173,6 +173,15 @@ nav li a {
     text-decoration: none;
 }
 
+nav li a:visited {
+    color: white;
+}
+
+.mobile-nav-menu li a:visited {
+    color: white;
+}
+
+
 
 /* Show the mobile navigation and hide the desktop navigation when the screen size is 768px or less */
 @media screen and (max-width: 768px) {
