@@ -105,6 +105,12 @@ nav li a {
     display: none; /* Hide the default select element */
 }
 
+#menu-icon {
+    width: 30px;  /* Set width as needed */
+    height: 30px;  /* Set height as needed */
+    cursor: pointer;
+}
+
 .mobile-menu-toggle {
     display: flex;
     align-items: center;
