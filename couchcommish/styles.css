@@ -96,7 +96,7 @@ nav li a {
 }
 
 .menu-container {
-    display: flex;
+    display: block;
     align-items: center;
 }
 
