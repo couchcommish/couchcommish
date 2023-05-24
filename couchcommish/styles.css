@@ -129,7 +129,7 @@ nav li a {
     width: 100%;
     height: 3px;
     background-color: white;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .mobile-menu-label {
@@ -137,6 +137,7 @@ nav li a {
     color: white;
     font-size: 12px;
     text-align: center;
+    margin-left: -3px;
 }
 
 
