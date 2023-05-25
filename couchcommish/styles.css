@@ -449,8 +449,7 @@ img#logo {
 
 #about {
     margin: 50px;
-    padding-top: 80px; /* height of the header + a bit of extra space */
-    background-color: white;
+    padding-top: 80px;
 }
 
 #about::before {
