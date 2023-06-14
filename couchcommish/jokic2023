@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The English Premier League: Is Monotony Threatening the Future?</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+     <header>
+    <div class="header-content">
+        <a href="../index.html">
+            <img id="logo" src="couchcommishlogo.jpeg" alt="Couch Commish Logo">
+        </a>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="../index.html#about">About Us</a></li>
+                <li><a href="contactus.html">Contact/Submissions</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav">
+        <div class="mobile-menu-container">
+    <div class="mobile-menu-toggle" onclick="toggleNav()">
+        <img src="articlepics/icons8-menu.gif" alt="Menu" id="menu-icon">
+    </div>
+    <span class="mobile-menu-label">Menu</span>
+            </div>
+            </div>
+            <ul id="mobile-nav-menu" class="mobile-nav-menu hidden"> 
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="../index.html#about">About Us</a></li>
+                <li><a href="contactus.html">Contact/Submissions</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+        <div class="image-container">
+    <img src="articlepics/jokictrophy.jpeg" height="500" alt="Jokic">
+    <div class="overlay">
+        <h1>Nikola Jokic's 2023 Playoff Phenomenon: Reshaping Basketball Brilliance</h1>
+        <p>Couch Commish | Jun 14, 2023 • 3 min</p>
+    </div>
+</div>
+<article class="article-content">
+    <h1 class="info-desktop">Nikola Jokic's 2023 Playoff Phenomenon: Reshaping Basketball Brilliance</h1>
+    <p class="spaced info-desktop">Couch Commish | Jun 14, 2023 • 3 min</p>
+
+        <p class="spaced">Basketball history is replete with memorable playoff performances, but the 2023 NBA Playoffs have given us a fresh masterpiece, courtesy of Nikola Jokic of the Denver Nuggets. Dominating over a stretch of 20 games, with an imposing 16-4 record, Jokic's performance has etched a bold, new chapter into basketball's rich tapestry. By averaging an awe-inspiring 30.0 points, 13.5 rebounds, and 9.5 assists, Jokic has taken the potential of the modern big man to new heights. With 10 triple-doubles, including the NBA’s first 30-20-10 game in the finals, Jokic is reaching unicorn status.</p>
+
+        <p class="spaced">To fully appreciate Jokic's remarkable achievement, it's instructive to contrast his numbers with some of the most iconic postseason performances in NBA history. </p>
+
+        <p class="spaced">Consider Michael Jordan's legendary 1991 playoff run. Jordan averaged 31.1 points, 6.4 rebounds, and 8.4 assists over 17 games, leading the Chicago Bulls to their inaugural NBA championship. Although Jordan's scoring average slightly bests Jokic's, the Nuggets' center outshone the Bulls' legend in the areas of rebounds and assists.</p>
+
+        <p class="spaced">Take, for instance, LeBron James's spectacular 2012 playoff run that resulted in his first championship with the Miami Heat. Over 23 games, James averaged 30.3 points, 9.7 rebounds, and 5.6 assists. Once again, Jokic's 2023 playoff stats exceed James's in rebounding and assisting while coming tantalizingly close in scoring.</p>
+
+        <p class="spaced">It's also worth comparing Jokic's contributions to those of fellow big men. In a decisive 1987 Playoffs game, Hakeem Olajuwon racked up 49 points, 25 rebounds, and 6 blocks, a feat that remains legendary even though the Houston Rockets fell short of winning the series. In a similar vein, Shaquille O'Neal unleashed a powerhouse performance during the 2001 Playoffs, crushing the Sacramento Kings with 44 points, 21 rebounds, and seven blocks in a single game. However, these mammoth performances were one-off feats, while Jokic's numbers represent a sustained brilliance over 20 games, underscoring his consistent impact on the game.</p>
+
+        <p class="spaced">Renowned for its unforgettable moments, Tim Duncan's 2003 playoff campaign stands as a pinnacle, regularly placed among the top three all-time performances—and the reasons are crystal clear. Amassing a formidable average of 24.7 points per game, 15.4 rebounds, 5.4 assists, and an awe-inspiring 3.3 blocks, Duncan was an unstoppable force that painted the path for the San Antonio Spurs' championship glory. His tenacity saw him shattering records with six games featuring at least 20 rebounds and a pair of triple-doubles under his belt. The crowning jewel, however, was his masterclass in Game Six of the finals— a virtuoso display of his skills where he amassed 21 points, 20 rebounds, 11 assists, and 8 blocks, cementing his legacy in the annals of basketball history. Yet, you can easily argue Jokic had an even more impressive run. </p>
+
+        <p class="spaced">Comparing performances across different eras is a challenging task, yet Jokic's recent tour de force invites such scrutiny. While he may not have reached the scoring zenith of Michael Jordan's 63-point game in the 1986 Playoffs or replicated the fever-battling heroics of Jordan's iconic 1997 "Flu Game," Jokic's consistent triple-double averages place him in an elite class of NBA playoff performers.</p>
+
+        <p style="margin-bottom: 50px;">Nikola Jokic's playoff performance in 2023 has secured a place for him in the annals of basketball history. His unique blend of scoring prowess, court vision, and rebounding dominance sets a high watermark few players have achieved. As we reflect on his extraordinary accomplishment, it's clear that Jokic has not only left an indelible mark on the NBA but also established a formidable standard for future playoff performances. Most importantly, though, Jokic can now go home to his horses.</p>
+
+        <div class="signature">Couch Commish</div>
+
+    </article>
+        
+    </main>
+     <footer>
+    <a href="https://www.instagram.com/couchcommish/" id="instagram-logo" target="_blank">
+        <img src="instagramlogo.jpeg" alt="Instagram Logo" />
+    </a>
+
+    <p>© 2023 Couch Commish</p>
+
+    <img id="site-logo" src="couchcommishlogocopy.png" alt="Your Site Logo" />
+</footer>
+</body>
+</html>
