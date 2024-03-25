@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2024 NFL Mock Draft: Novarro 1.0</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+ <header>
+    <div class="header-content">
+        <a href="../index.html">
+            <img id="logo" src="couchcommishlogo.jpeg" alt="Couch Commish Logo">
+        </a>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="../index.html#about">About Us</a></li>
+                <li><a href="contactus.html">Contact/Submissions</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav">
+            <div class="mobile-menu-container">
+    <div class="mobile-menu-toggle" onclick="toggleNav()">
+        <img src="articlepics/icons8-menu.gif" alt="Menu" id="menu-icon">
+    </div>
+    <span class="mobile-menu-label">Menu</span>
+            </div>
+            </div>
+            <ul id="mobile-nav-menu" class="mobile-nav-menu hidden"> 
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="../index.html#about">About Us</a></li>
+                <li><a href="contactus.html">Contact/Submissions</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+        
+        <div class="image-container">
+    <img src="articlepics/rome-odunze.jpg" alt="Description of image">
+    <div class="overlay">
+        <h1>2024 NFL Mock Draft: Novarro 1.0</h1>
+        <p>Brandon Novarro | March 24, 2024 • 5 min</p>
+    </div>
+</div>
+<article class="article-content">
+    <!-- You can remove these lines if you do not want to display the title and author information on desktop -->
+    <h1 class="info-desktop">NFL Futures: Awards Predictions and Top Value Picks</h1>
+    <p class="spaced info-desktop">Brandon Novarro | May 11, 2023 • 5 min</p>
+        
+        <h2>1. Chicago Bears: QB Caleb Williams</h2>
+        <p class="spaced">Fields is now gone. The Bears have already made their pick. Take the top QB prospect and move on here.
+</p>
+
+        <h2>2. Washington Commanders: QB Jayden Daniels</h2>
+        <p class="spaced">The decision to take Daniels over Maye will come down to the elite mobility and dual-threat ability of the LSU quarterback who they hop can unlock a Lamar Jackson-level ceiling.
+</p>
+
+        <h2>3. New England Patriots: QB Drake Maye</h2>
+        <p class="spaced">Despite having the third pick of this year’s quarterback crop, New England comes out of this draft with who many believe to be the second overall QB on their board. If Maye can clean up his footwork, it seems he can have a very bright future in this league.
+</p>
+
+        <h2>4. Minnesota Vikings: QB J.J. McCarthy</h2>
+        <h3>TRADE with Arizona Cardinals</h3>
+        <p class="spaced">The Vikings use their two first-round picks this year to trade up and get their rookie replacement for QB Kirk Cousins, a polarizing prospect and winner who can attack the middle of the field.</p>
+
+        <h2>5. Los Angeles Chargers: WR Marvin Harrison Jr.</h2>
+        <p class="spaced">The Cardinals trade means the top WR in this draft is available. The Chargers waste no time and replace Keenan Allen and Mike Williams with a generational prospect.</p>
+
+        <h2>6. New York Giants: WR Malik Nabers</h2>
+        <p class="spaced">After a quiet offseason on the offensive side of the ball, the Giants take my number two WR in this draft, who I believe edges out Odunze in playmaking after the catch.</p>
+
+        <h2>7. Tennessee Titans: OT Joe Alt</h2>
+        <p class="spaced">The Titans were busy this offseason filling multiple areas of need and fill another, taking the best OT prospect in the draft to protect their young signal-caller.</p>
+
+        <h2>8. Atlanta Falcons: EDGE Dallas Turner</h2>
+        <p class="spaced">After various moves on the offensive side of the ball, the Falcons take the first defensive player in this draft to help anchor their pass rush.</p>
+
+        <h2>9. Chicago Bears: EDGE Jared Verse</h2>
+        <p class="spaced">Another team who was busy on the offensive side of the ball this offseason, the Bears take Verse to form a dangerous pass-rush duo with Montez Sweat.
+</p>
+
+        <h2>10. New York Jets: TE Brock Bowers</h2>
+        <p class="spaced">In a make-or-break season for Joe Douglas and this front office, the Jets fill the starting TE role with a generational prospect who can hopefully bring a ton of impact from Day 1 for an offense that was one of the worst in the NFL last season.</p>
+
+        <h2>11. Atlanta Falcons: WR Rome Odunze</h2>
+        <p class="spaced">Even after trading down, the Cardinals fill a top positional need with an elite prospect in “go up and get it” WR Rome Odunze.</p>
+
+        <h2>12. Philadelphia Eagles: CB Quinyon Mitchell</h2>
+        <h3>TRADE with Denver Broncos</h3>
+        <p class="spaced">Howies strikes again. The Eagles trade up to snag arguably the best CB prospect in this draft to bolster a porous secondary and complete an eventful offseason.</p>
+
+        <h2>13. Los Vegas Raiders: CB Terrion Arnold</h2>
+        <p class="spaced">Two corners go back to back as Antonio Pierce adds the lockdown CB1 he has been looking for in the Alabama star.
+</p>
+
+        <h2>14. New Orleans Saints: Olumuyiwa Fashanu</h2>
+        <p class="spaced">After the failed Trevor Penning experiment, the Saints luck out as a top tackle prospect in Olu Fashanu falls right into their lap.</p>
+
+        <h2>15. Indianapolis Colts: CB Nate Wiggins</h2>
+        <p class="spaced">Another corner goes off the board as the Colts add the slim but athletic Wiggins to bolster their secondary.</p>
+
+        <h2>16. Seattle Seahawks: EDGE Laiatu Latu</h2>
+        <p class="spaced">In year one, Mike Macdonald snags a talented pass-rusher in Latu to bolster his blitz-light defense.</p>
+
+        <h2>17. Jacksonville Jaguars: WR Brian Thomas Jr.</h2>
+        <p class="spaced">With Calvin Ridley gone in free agency, the Jags take who many believe to be the next best of this deep WR crop in LSU standout Brian Thomas Jr.</p>
+
+        <h2>18. Cincinnati Bengals: OT Taliese Fuaga</h2>
+        <p class="spaced">With Jonah Williams gone and a pressing need at tackle, the Bengals happily take OT Taliese Fauga, an absolute mauler.</p>
+
+        <h2>19. Los Angeles Rams: DT Johnny Newton</h2>
+        <p class="spaced">With Aaron Donald officially gone after calling it a career, the Rams look to find his replacement with an absolute beast in DT Johnny Newton.</p>
+
+        <h2>20. Pittsburgh Steelers: OT Troy Fautanu</h2>
+        <p class="spaced">The Steelers bring needed reinforcements to their offensive line with Fautana, a talented prospect out of Washington with both tackle and guard experience.</p>
+
+        <h2>21. Miami Dolphins: OC Jackson Powers-Johnson</h2>
+        <p class="spaced">The Dolphins bolster their offensive line with possibly the best interior line prospect of this year draft in Jackson Powers-Johnson.</p>
+
+        <h2>22. Denver Broncos: QB Bo Nix</h2>
+        <p class="spaced">The Broncos trade back recouping much needed draft capital and still get their QB of the future in Nix, an ideal prospect for Sean Payton’s offensive scheme.</p>
+
+        <h2>23. Arizona Cardinals: EDGE Chop Robinson</h2>
+        <p class="spaced">After going receiver, the Cardinals turn to the athletic Chop Robinson to add much needed pass-rushing talent to their defense.</p>
+
+        <h2>24. Dallas Cowboys: OT JC Latham</h2>
+        <p class="spaced">With Tyron Smith now gone, the Cowboys turn to talented Alabama tackle prospect Latham who they hope can transition from RT and compete for the starting LT spot.</p>
+
+        <h2>25. Green Bay Packers: CB Kool-Aid McKinstry</h2>
+        <p class="spaced">After an eventful free agency it is clear, the secondary could still use help. The Packers scoop up the best CB on the board with the Alabama standout.
+</p>
+
+        <h2>26. Tampa Bay Buccaneers: OG Graham Barton</h2>
+        <p class="spaced">Another talented interior lineman is taken off the board as the Bucs add one of the best guards in this draft class.</p>
+
+        <h2>27. Arizona Cardinals: DT Bryon Murphy</h2>
+        <p class="spaced">The Cardinals end this year’s first round in style adding another exciting talent in potential gamewrecker DT Bryon Murphy with their third pick.</p>
+
+        <h2>28. Buffalo Bills: WR Adonai Mitchell</h2>
+        <p class="spaced">With Gabe Davis gone, the Bills turn to Adonai Mitchell to give Josh Allen an exciting new weapon.</p>
+
+        <h2>29. Los Vegas Raiders: OT Amarius Mims</h2>
+        <h3>TRADE with Detroit Lions</h3>
+        <p class="spaced">No Penix selection here. The Raiders jump ahead of other tackle needy teams and add a monstrous piece to their offensive line.</p>
+
+        <h2>30. Baltimore Ravens: OT Tyler Guyton</h2>
+        <p class="spaced">Facing numerous departures this offseason, the Ravens select OT Tyler Guyton to help rebuild their offensive line.
+</p>
+
+        <h2>31. San Francisco 49ers: OT Jordan Morgan</h2>
+        <p class="spaced">Another team in need of offensive line reinforcements, the Niners take the next best available tackle prospect off the board.
+</p>
+
+        <h2>32. Kansas City Chiefs: WR Xavier Worthy</h2>
+        <p class="spaced">Despite adding Marquise Brown in free-agency, with this draft board, it is hard not to see the Chiefs happily adding this elite speedster to their chest of offensive weapons.</p>
+
+        <div class="signature">Brandon Novarro</div>
+
+    </article>
+        
+    </main>
+     <footer>
+    <a href="https://www.instagram.com/couchcommish/" id="instagram-logo" target="_blank">
+        <img src="instagramlogo.jpeg" alt="Instagram Logo" />
+    </a>
+
+    <p>© 2023 Couch Commish</p>
+
+    <img id="site-logo" src="couchcommishlogocopy.png" alt="Your Site Logo" />
+</footer>
+</body>
+</html>
